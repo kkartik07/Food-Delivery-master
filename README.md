@@ -1,5 +1,9 @@
 # Food Delivery
 
+### Live Site :
+
+https://foodiefirst.netlify.app/
+
 <br>
 
 ## Detailed Functionality
@@ -25,7 +29,3 @@
 
 <img src="./frontend/src/assests/mern-food-delivery-app.herokuapp.com_.png" width='800' height='auto'>
 <br>
-
-### LINK :
-
-https://rio-ci4k.onrender.com/
