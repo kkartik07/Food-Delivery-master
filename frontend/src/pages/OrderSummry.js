@@ -155,7 +155,7 @@ if(!res){
    </div>
    <div className="shipping-details">
    <div className="address">
-   <h3>ORDER SUMMRY</h3>
+   <h3>ORDER SUMMARY</h3>
    <div className="add-sec-area">
        <h4>Shipping</h4>
          {address&&(
@@ -178,7 +178,7 @@ if(!res){
                             </div>
                             <div className="des">
                                <h3>{item.name}</h3>
-                               <p>qty:{item.qty}</p>
+                               <p>Qty:{item.qty}</p>
                                <p className='des'>{item.description?item.description:'Treat your taste buds with Double Pepper Barbecue Chicken, Peri-Peri Chicken, Chicken Tikka & Grilled Chicken Rashers'}</p>
                             </div>
                             <div className="price">

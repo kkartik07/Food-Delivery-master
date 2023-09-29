@@ -43,7 +43,7 @@ const AllOrders = () => {
                     </div>
                     <div className="details">
                      <h4>{item?.name}</h4>
-                     <p>qty:{item?.qty}</p>
+                     <p>Qty:{item?.qty}</p>
                      <p>place Date : {order?.createdAt}</p>
                     </div>
                     </div>

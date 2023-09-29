@@ -50,7 +50,7 @@ const OrderDetails = () => {
                          </div>
                          <div className="des">
                             <h3>{item.name}</h3>
-                            <p>qty:{item.qty}</p>
+                            <p>Qty:{item.qty}</p>
                             <p className='des'>{item.description?item.description:'Treat your taste buds with Double Pepper Barbecue Chicken, Peri-Peri Chicken, Chicken Tikka & Grilled Chicken Rashers'}</p>
                          </div>
                          <div className="price">
