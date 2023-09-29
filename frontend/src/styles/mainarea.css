@@ -1,4 +1,7 @@
 @import "./vars.css";
+#cart{
+  margin-left: 20px;
+}
 .mainarea {
   width: 63%;
   height: 100%;

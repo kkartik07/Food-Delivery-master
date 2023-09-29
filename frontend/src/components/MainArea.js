@@ -5,6 +5,7 @@ import pizzaboy from '../assests/pizzaboy.png'
 import pizzaSilce from '../assests/pizzaSilce.png'
 import Product from './products/Product'
 import { useSelector } from 'react-redux'
+import { Link } from 'react-router-dom'
 const MainArea = () => {
     const user = useSelector(state=>state.user)
     const [category,setCategory]=useState('pizza')
@@ -20,6 +21,9 @@ const MainArea = () => {
                 <h2>Hello {user?.user?.name}</h2>
                 <p>Get Free delivery on <span>500 Rs.</span>  and above</p>
                 <button>Order Now!</button>
+                <Link to='/cart'id='cart'>
+                <button> View Cart</button>
+                </Link>
                 <img className='full circle' src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Orange_circle_100%25.svg/768px-Orange_circle_100%25.svg.png" alt="" />
                 <img className='small circle' src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Orange_circle_100%25.svg/768px-Orange_circle_100%25.svg.png" alt="" />
                 <img className='smaller circle' src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Orange_circle_100%25.svg/768px-Orange_circle_100%25.svg.png" alt="" />
