@@ -1,6 +1,6 @@
 import React ,{useState}from 'react'
 import '../styles/sidebar.css'
-import {FaHome,FaBoxOpen,FaPizzaSlice,FaTimes} from 'react-icons/fa'
+import {FaHome,FaBoxOpen,FaPizzaSlice,FaTimes, FaShopify, FaShoppingBag, FaShoppingCart} from 'react-icons/fa'
 import {BsHeartHalf,BsGear} from 'react-icons/bs'
 import {CgFileDocument} from 'react-icons/cg'
 import { Link,useLocation } from 'react-router-dom'
@@ -27,6 +27,9 @@ const SideBar = () => {
             <div className="top-icons">
             <Link to="/"><div className={`icon ${path==='/'&&'active'}`}>
                 <FaHome/>
+            </div></Link>
+            <Link to="/cart"><div className={`icon ${path==='/cart'&&'active'}`}>
+                <FaShoppingCart/>
             </div></Link>
             <Link to="/orders"><div className={`icon ${path==='/orders'&&'active'}`}>
                 <FaBoxOpen/>
