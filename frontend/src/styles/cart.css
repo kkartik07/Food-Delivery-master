@@ -9,6 +9,9 @@
   flex-direction: column;
   background: rgb(241, 241, 241);
 }
+.burger {
+  display: none;
+}
 .cart-screen img {
   height: 500px;
 }
@@ -166,3 +169,41 @@
   text-transform: uppercase;
   font-weight: 600;
 }
+
+/* Original CSS code */
+
+/* Add responsive styles for screens with a maximum width of 920px */
+@media (max-width: 920px) {
+  .cart-area {
+    flex-direction: column; /* Change to a column layout on smaller screens */
+  }
+  .burger {
+    display: block;
+    margin-right: 10px;
+  }
+  .burger svg {
+    font-size: 22px;
+    font-weight: 600;
+  }
+  .billing {
+    width: 100%; /* Make the billing section full width on smaller screens */
+    margin-left: 0; /* Remove left margin on smaller screens */
+  }
+  
+  .checkout-area button {
+    width: 100%; /* Make the checkout button full width on smaller screens */
+    margin-left: 0; /* Remove left margin on smaller screens */
+  }
+  
+  /* Add any other responsive styles as needed */
+  
+  /* Example: Adjust font sizes or padding for smaller screens */
+  .cart-card .price span {
+    font-size: 12px; /* Decrease font size on smaller screens */
+  }
+  
+  /* You can continue adding more responsive styles here */
+}
+
+/* Additional media queries for even smaller screens can be added here */
+
