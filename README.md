@@ -2,7 +2,7 @@
 
 ### Live Site :
 
-https://foodiefirst.netlify.app/
+https://foodie-first.vercel.app/
 
 <br>
 
